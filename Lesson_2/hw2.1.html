@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap"
+          rel="stylesheet">
+
+    <style>
+        .content {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+
+        .box {
+            background-color: #f3c198;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .item-1 {
+            font-family: "Rubik Pixels", system-ui;
+        }
+
+        .item-2 {
+            font-family: "Sedgwick Ave Display", cursive;
+        }
+
+        .item-3 {
+            font-family: "Dancing Script", cursive;
+        }
+
+        .item-4 {
+            font-family: "Fjalla One", sans-serif;
+        }
+
+        .item-5 {
+            font-family: "Indie Flower", cursive;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="content">
+        <div class="box item-1">
+            Rubik Pixels
+        </div>
+        <div class="box item-2">
+            Sedgwick Ave Display
+        </div>
+        <div class="box item-3">
+            Dancing Script
+        </div>
+        <div class="box item-4">
+            Fjalla One
+        </div>
+        <div class="box item-5">
+            Indie Flower
+        </div>
+    </div>
+</body>
+</html>
