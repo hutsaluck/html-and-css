@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100vw;
+    height: 50vh;
+    background-color: gray;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+}
+
+section#second {
+    background-color: black;
+    color: white;
+}
+
+section#third {
+    background-color: green;
+}
+section h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 200px;
+}

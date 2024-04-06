@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+header, footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #D9D9D9;
+}
+
+main {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+}
+
+main section {
+    width: 33.3vw;
+    height: 100%;
+    background-color: #61615C;
+}
+
+main aside {
+    width: 33.3vw;
+    height: 100%;
+}
+
+main aside.left-content article {
+    width: 100%;
+    height: 33.3%;
+    background-color: #979796;
+}
+
+main aside.right-content article {
+    width: 100%;
+    height: 50%;
+    background-color: #78786f;
+}
+
+main aside.left-content article.middle-item {
+    background-color: #7F816A;
+}
+
+main aside.right-content article.bottom-item {
+    background-color: #828569;
+}
+
+footer{
+    height: 10vh;
+}
