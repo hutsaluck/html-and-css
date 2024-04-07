@@ -17,7 +17,7 @@ main {
 main section {
     width: 50vw;
     height: 100%;
-    background-color: #979796;
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
 }
 
 main section article {
