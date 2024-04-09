@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #357ae8;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #3897f0;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.different-block {
+    position: relative;
+    margin: 25px 0;
+}
+
+.different-block hr {
+    width: 100%;
+    color: #dbdbdb;
+}
+
+.different-block .different-login {
+    color: #a1a1a1;
+    font-weight: 600;
+    font-size: .8125rem;
+    position: absolute;
+    left: calc(50% - 29.4px);
+    top: -20px;
+    background: #fff;
+    width: auto;
+    padding: 0 15px;
+}
+
+.fb-block {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.fb-block img {
+    width: 16px;
+    height: 16px;
+}
+
+.password {
+    color: rgb(0, 55, 107);
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.wrap-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 350px;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.wrap-register p {
+    color: #000;
+    text-align: center;
+}
+
+.wrap-register a {
+    text-decoration: none;
+    color: rgb(0, 149, 246);
+    font-weight: 600;
+}
+
