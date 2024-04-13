@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+.block-1 > ul > li:nth-of-type(even) {
+    color: hotpink;
+}
+
+.block-2 > ul > li:nth-of-type(odd) {
+    font-size: 22px;
+}
+
+.block-3 > ul > li:nth-of-type(2n + 4):after {
+    content: '!';
+}
+
+.block-4 > ul > li:last-child {
+    color: #8b00ff;
+}
+
+.block-5 > ul > li:first-letter {
+    font-size: 30px;
+    color: tomato;
+}
+
+section > ul {
+    margin-bottom: 30px;
+}
+
+section > ul > li {
+    list-style-type: none;
+    line-height: 25px;
+    position: relative;
+}
+
+section > ul > li:before {
+    position: absolute;
+    content: url(../images/beer.png);
+    margin-left: -20px;
+    margin-right: 10px;
+    top: 2px;
+}

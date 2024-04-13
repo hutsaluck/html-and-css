@@ -83,7 +83,7 @@
     width: 62vw;
 }
 .video iframe{
-    height: 550px;
+    min-height: 70vh;
 }
 
 .products {
