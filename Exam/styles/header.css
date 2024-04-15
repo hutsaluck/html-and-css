@@ -1,0 +1,31 @@
+header{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 6vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5vh;
+}
+
+header nav{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header nav li a{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.125em;
+}
+header nav li a:hover{
+    color: rgba(255, 255, 255);
+}
+
+header nav li.current a{
+    color: #FF4B32;
+    font-weight: 700;
+}

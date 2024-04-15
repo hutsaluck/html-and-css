@@ -1,0 +1,42 @@
+.main {
+    background-image: url(../images/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #000;
+    height: 70vh;
+    padding-top: 30vh;
+
+    color: #ffffff;
+}
+
+.main h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3.5em;
+    font-weight: 500;
+    line-height: 120%;
+    width: 35vw;
+    margin-bottom: 25px;
+}
+
+.main p{
+    font-size: 1.25em;
+    width: 35vw;
+    margin-bottom: 50px;
+}
+
+.main a{
+    font-size: 1.125em;
+    line-height: 160%;
+    border-radius: 5px;
+    background: #FF4B32;
+    color: #fff;
+    padding: 15px 35px;
+    transition: all 0.3s;
+}
+
+.main a:hover{
+    color: #ff4b32;
+    background-color: #fff;
+}
+
