@@ -44,3 +44,9 @@
 .wrap-products .product p.description{
     color: rgba(0, 0, 0, .6);
 }
+
+@media screen and (max-width: 1024px) {
+    .wrap-products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

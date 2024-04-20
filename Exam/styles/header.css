@@ -1,4 +1,4 @@
-header{
+header {
     display: grid;
     grid-auto-flow: column;
     gap: 6vw;
@@ -8,7 +8,7 @@ header{
     top: 5vh;
 }
 
-header nav{
+header nav {
     display: grid;
     grid-auto-flow: column;
     gap: 5vw;
@@ -17,15 +17,67 @@ header nav{
     list-style: none;
 }
 
-header nav li a{
+header nav li a {
     color: rgba(255, 255, 255, 0.6);
     font-size: 1.125em;
 }
-header nav li a:hover{
+
+header nav li a:hover {
     color: rgba(255, 255, 255);
 }
 
-header nav li.current a{
+header nav li.current a {
     color: #FF4B32;
     font-weight: 700;
+}
+
+header img.menu {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        justify-content: space-between;
+    }
+
+    header nav {
+        opacity: 0;
+        /*display: none;*/
+        position: absolute;
+        width: 100vw;
+        grid-auto-flow: unset;
+        grid-template-rows: repeat(5, min-content);
+        background: #fff;
+        color: #000;
+        height: 100vh;
+        top: -5vh;
+        text-align: center;
+        gap: 40px;
+        z-index: -9;
+    }
+
+    header img.menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    header img.menu:hover + nav {
+        opacity: 1;
+        z-index: 9;
+    }
+
+    header nav li a {
+        font-size: 2em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    header nav li:nth-child(2) {
+        margin-top: 60px;
+    }
+
+    header nav li:first-child {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
 }
